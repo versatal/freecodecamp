@@ -1,42 +1,87 @@
 <div class="container">
-  <div class="jumbotron">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <a href="#home" class="btn btn-default navbar-btn">Home</a>
+    <a href="#contact" class="btn btn-default navbar-btn navbar-right">Contact</a>
+    <a href="#portfolio" class="btn btn-default navbar-btn navbar-right">Portfolio</a>
+
+  </nav>
+  <div>
+    <a name="home"></a>
+  </div>
+  <div class="home">
     <div class="row">
-      <div class="col-12">
-        <h1 class="liner text-center">President Abraham Lincoln</h1>
-        <h3 class="liner text-center">16th President of The United States</h3>
-        <div class="liner thumbnail">
-          <img src="http://blog.constitutioncenter.org/wp-content/uploads/2013/02/Emancipation_proclamation.jpg">
-          <div class="caption text-center">Lincoln presents the first draft of the Emancipation Proclamation to his cabinet. Painted by Francis Bicknell Carpenter in 1864</div>
-        </div>
+      <div class="col-md-4">
+
+        <p>Hi my name is Roger and this is my portfolio page.  I will update the thumbnails as soon as I have some.  Also I will get a different pic of me.  It is a little old.  The style wil get an update soon as well. </p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h3 class="text-center">Timeline of Abraham Lincoln's Life</h3>
-        <ul>
-          <li><b>1809</b> Born in Hodgenville, Ky</li>
-          <li><b>1846</b> Elected to the United States House of Representatives
-          </li>
-          <li><b>1860</b> Elected President of the United States of America
-          </li>
-          <li><b>1865</b> Assassinated</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <blockquote class="text-center">"Folks are usually about as happy as they make up their minds to be."
-          <footer>Abraham Licoln</footer>
-        </blockquote>
-        <h2 class="text-center">Read more about Abraham Lincoln <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln" target="_blank">here</a>.</h2>
+      <div class="col-md-4 col-md-offset-4">
+        <img class="img-responsive" src="https://ogta7q.dm2301.livefilestore.com/y3mfQFDceACA8P4t92b-YM3PSv2tMO488wt7wr9CX2u1hJHOsnPVLmgT1Nm5Ag3kR8FEvBW7pQDCPYfcSfrqT1mChzrf6WeZ9uUgsoHwzh5z89GhGXaHWzPHTtSyrrKmpOrIpA_XXTL9luplQKnx-VPGYp7oJSjrhmyTwl-yw8SfWs?width=540&height=960&cropmode=none">
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-12"> 
-      <footer class="text-center">
-      <hr> Written And coded by<a href="http://codepen.io/volcivar" target="_blank"> Roger Hardin</a>
-      </footer>
+  <div>
+    <a name="portfolio"></a>
+  </div>
+  <div class="portfolio">
+    <h1>Portfolio</h1>
+    <div class="row">
+      <div class="col-md-4 col-md-offsett-4">
+        <a href="#" class="img-thumbnail">
+          <img src="http://placehold.it/500x500">
+        </a>
+      </div>
+      <div class="col-md-4 col-md-offset-2">
+        <a href="#" class="img-thumbnail">
+          <img src="http://placehold.it/500x500">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offsett-4">
+        <a href="#" class="img-thumbnail">
+          <img src="http://placehold.it/500x500">
+        </a>
+      </div>
+      <div class="col-md-4 col-md-offset-2">
+        <a href="#" class="img-thumbnail">
+          <img src="http://placehold.it/500x500">
+        </a>
+      </div>
     </div>
   </div>
+  <div>
+    <a name="contact"></a>
+  </div>
+  <div class="contact">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputName">Name</label>
+        <input type="text" class="form-control input-lg" id="exampleInputName" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control input-lg" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputTextarea">Message</label>
+        <textarea class="form-control input-lg" id="exampleInputMessage" placeholder="Your Message Here" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  <div class="panel-footer">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>This page created by Roger Hardin</h3>
+      </div>
+      <div class="col-md-4 col-md-offset-4">
+        <a class="btn btn-basic" href="http://www.linkedin.com/in/rogerjhardinjr" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+        <a href="http://www.twitter.com/versatol" target="_blank" class="btn btn-basic"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+        <a href="http://github.com/versatal" target="_blank" class="btn btn-basic"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <h4 class="text-center">&copy 2016.  All rights reserved</h4>
 </div>
