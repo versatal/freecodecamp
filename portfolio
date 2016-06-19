@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="liner text-center">President Abraham Lincoln</h1>
+        <h3 class="liner text-center">16th President of The United States</h3>
+        <div class="liner thumbnail">
+          <img src="http://blog.constitutioncenter.org/wp-content/uploads/2013/02/Emancipation_proclamation.jpg">
+          <div class="caption text-center">Lincoln presents the first draft of the Emancipation Proclamation to his cabinet. Painted by Francis Bicknell Carpenter in 1864</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h3 class="text-center">Timeline of Abraham Lincoln's Life</h3>
+        <ul>
+          <li><b>1809</b> Born in Hodgenville, Ky</li>
+          <li><b>1846</b> Elected to the United States House of Representatives
+          </li>
+          <li><b>1860</b> Elected President of the United States of America
+          </li>
+          <li><b>1865</b> Assassinated</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <blockquote class="text-center">"Folks are usually about as happy as they make up their minds to be."
+          <footer>Abraham Licoln</footer>
+        </blockquote>
+        <h2 class="text-center">Read more about Abraham Lincoln <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln" target="_blank">here</a>.</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12"> 
+      <footer class="text-center">
+      <hr> Written And coded by<a href="http://codepen.io/volcivar" target="_blank"> Roger Hardin</a>
+      </footer>
+    </div>
+  </div>
+</div>
